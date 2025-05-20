@@ -143,8 +143,8 @@ def make_section(title, variables):
 make_section("Datos Demográficos", (["Age","Income"], ["Education","Sex"]))
 make_section("Salud y Bienestar", (["BMI","PhysHlth"],
                 ["HvyAlcoholConsump","GenHlth"]))
-make_section("Antecedentes Médicos", (["CholCheck","HighBP","HighChol","Stroke"],
-                ["HeartDiseaseorAttack","DiffWalk"]))
+make_section("Antecedentes Médicos", (["CholCheck","HighBP","HighChol"],
+                ["HeartDiseaseorAttack","DiffWalk","Stroke"]))
 
 
 # Botón para predecir
